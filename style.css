@@ -1,0 +1,23 @@
+.pdf-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pdf-block {
+  width: 200px; /* adjust the width to your liking */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+.pdf-block a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.pdf-block a:hover {
+  color: #23527c;
+}
